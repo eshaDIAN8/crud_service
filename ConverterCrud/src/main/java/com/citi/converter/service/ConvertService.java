@@ -8,7 +8,7 @@ public interface ConvertService {
 
 	//double convertedMetric(String convertedUnit ,String fromUnit, String toUnit, double value);
 
-	public String findByKeyData(String convertedUnit);
+	public String findByKey(String convertedUnit);
 	
 	/*double convertedMetricInchToMeter(String fromUnit, String toUnit, double value);
 	

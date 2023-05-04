@@ -33,8 +33,8 @@ public class ConvertController {
 	@GetMapping("/{convertedUnit}")
 	public  ResponseEntity<String> getConvertedUnitFromFrontService( @PathVariable String convertedUnit) {
 		
-		String getformula = convertService.findByKeyData(convertedUnit);
-			
+		String getformula = convertService.findByKey(convertedUnit);
+			System.out.println("getformula::"+getformula);
 		//return convertRepo.findByUnit(fromUnit,toUnit);
 		return ResponseEntity.ok(getformula);
 	}

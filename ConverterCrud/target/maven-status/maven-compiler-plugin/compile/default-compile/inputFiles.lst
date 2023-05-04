@@ -1,8 +1,6 @@
-C:\spring_boot_coding\TemperatureConverter\src\main\java\com\city\tempconverter\model\Convert.java
-C:\spring_boot_coding\TemperatureConverter\src\main\java\com\city\tempconverter\serviceImpl\LengthConverterServiceImpl.java
-C:\spring_boot_coding\TemperatureConverter\src\main\java\com\city\tempconverter\repository\ConvertRepo.java
-C:\spring_boot_coding\TemperatureConverter\src\main\java\com\city\tempconverter\serviceImpl\TemparatureConverterServiceImpl.java
-C:\spring_boot_coding\TemperatureConverter\src\main\java\com\city\tempconverter\serviceImpl\WeightConverterServiceImpl.java
-C:\spring_boot_coding\TemperatureConverter\src\main\java\com\city\tempconverter\service\ConvertService.java
-C:\spring_boot_coding\TemperatureConverter\src\main\java\com\city\tempconverter\ConverterApplication.java
-C:\spring_boot_coding\TemperatureConverter\src\main\java\com\city\tempconverter\controller\ConvertController.java
+C:\spring_boot_coding\ConverterCrud\src\main\java\com\citi\converter\ConverterApplication.java
+C:\spring_boot_coding\ConverterCrud\src\main\java\com\citi\converter\model\Convert.java
+C:\spring_boot_coding\ConverterCrud\src\main\java\com\citi\converter\repository\ConvertRepo.java
+C:\spring_boot_coding\ConverterCrud\src\main\java\com\citi\converter\service\ConvertService.java
+C:\spring_boot_coding\ConverterCrud\src\main\java\com\citi\converter\controller\ConvertController.java
+C:\spring_boot_coding\ConverterCrud\src\main\java\com\citi\converter\serviceImpl\LengthConverterServiceImpl.java

@@ -1,7 +1,7 @@
 package com.citi.converter.serviceImpl;
 
 
-import java.util.Optional;
+
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -23,9 +23,10 @@ public class LengthConverterServiceImpl implements ConvertService {
 
 	
 	@Override
-	public String findByKeyData(String convertedUnit) {
+	public String findByKey(String convertedUnit) {
 		// TODO Auto-generated method stub
-		String formula = repo.findByKey(convertedUnit);
+		String formula = repo.findByName(convertedUnit);
+		System.out.println("in crud service impl ::"+formula);
 		return formula;
 	}
 

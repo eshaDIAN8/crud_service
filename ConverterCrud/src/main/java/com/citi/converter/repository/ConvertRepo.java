@@ -9,11 +9,11 @@ import org.springframework.stereotype.Repository;
 
 import com.citi.converter.model.Convert;
 
-
+@Repository
 public interface ConvertRepo extends JpaRepository<Convert, Double>{
 
 	//@Query("select formula from e where convertedUnit:=convertedUnit")
-	String findByKey(String convertedUnit);
+	public String findByName(String name);
 
 	
 

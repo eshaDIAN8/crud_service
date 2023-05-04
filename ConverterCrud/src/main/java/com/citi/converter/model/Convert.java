@@ -23,8 +23,8 @@ public class Convert {
 	@Column(name="FROM_UNIT_TO_UNIT")
 	private String fromUnit_toUnit;
 	
-	@Column(name="FORMULA")
-	private String formula;
+	@Column(name="NAME")
+	private String name;
 	
 	/*@Column(name ="INCHTOMETER")
 	private double inchToMeter;
